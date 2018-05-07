@@ -3,8 +3,8 @@ layout:     post
 title:      "Hello Clojure"
 subtitle:   " \"Hello World, Hello Clojure\""
 date:       2018-05-07 20:29:00
-author:     "Hux"
-header-img: "img/Clojure.jpg"
+author:     "Dennis"
+header-img: "img/Clojure.png"
 catalog: true
 tags:
     - clojure
