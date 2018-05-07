@@ -4,7 +4,7 @@ title:      "Hello Clojure"
 subtitle:   " \"Hello World, Hello Clojure\""
 date:       2018-05-07 20:29:00
 author:     "Dennis"
-header-img: "img/post-bg-2015.png"
+header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
     - clojure
