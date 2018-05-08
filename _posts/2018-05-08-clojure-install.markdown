@@ -12,16 +12,16 @@ tags:
 
 # Clojure环境配置  
 
-####基于mac的环境配置
+### 基于mac的环境配置
 
-1. 利用brew安装clojure  
+- ### 利用brew安装clojure  
     brew是mac下必备的软件,具体安装方法参照 [brew][1],安装好brew我们去clojure官网[clojure][2],
      一条命令就可以成功的安装好clojure的环境  
-    
-2. 配置idea开发环境  
-    idea插件搜索Cursive,安装好后重启idea。
+
+- ### 配置idea开发环境  
+    idea插件搜索Cursive,安装好后重启idea
   
-3. 创建第一个clj工程
+- ### 创建第一个clj工程
     打开idea file - new project ![img][3]
 
 
@@ -35,4 +35,4 @@ tags:
 
 [1]: <https://brew.sh/index_zh-cn.html>  
 [2]: <https://www.clojure.org/guides/getting_started>
-[3]: (/img/cli/cli_01.jpg)
+[3]: /img/cli/cli_01.jpg
