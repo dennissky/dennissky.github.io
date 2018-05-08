@@ -20,7 +20,7 @@ brew是mac下必备的软件,具体安装方法参照 [brew][1],安装好brew我
 idea插件搜索Cursive,安装好后重启idea
   
 - 创建第一个clj工程  
-打开idea file - new project - leiningen,接着等待就好了.创建好项目结构如下:
+打开idea file - new project - leiningen,接着等待就好了.创建好项目结构如图![structure][3]
 
 
 
