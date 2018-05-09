@@ -10,8 +10,9 @@ tags:
     - emacs
 ---
 
-##Emacs 安装  
-找了很多资料大家都建议使用emacs学些clojure,同时也对这个神器仰慕已久,那就来吧!
+## Emacs 安装  
+找了很多资料大家都建议使用emacs学些clojure,同时也对这个神器仰慕已久,那就来吧!  
+mac下brew安装  
 
-brew install emacs --cocoa
-ln -s /usr/local/Cellar/emacs/24.3/Emacs.app /Applications/
+    brew install emacs --cocoa
+    ln -s /usr/local/Cellar/emacs/24.3/Emacs.app /Applications/
