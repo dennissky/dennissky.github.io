@@ -25,6 +25,7 @@ tags:
         C-x d     打开dired mode D删除 C复制 R重命名 X执行 +新建文件或目录
         C-x v     查看variable
         C-x f     查看function
+        C-x o     窗口切换
         
         Meta-s o  打开occur mode
         Meta-x i-buffer 查看buffer
