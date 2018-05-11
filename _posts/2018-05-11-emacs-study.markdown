@@ -27,6 +27,9 @@ tags:
         C-x v     查看variable
         C-x f     查看function
         C-x o     窗口切换
+        C-x C-j   打开dired mode
+        C-;       打开iedit mode
+        C-=       选中单词
         
         Meta-s o  打开occur mode
         Meta-x i-buffer 查看buffer
