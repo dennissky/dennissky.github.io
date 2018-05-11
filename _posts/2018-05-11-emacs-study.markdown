@@ -23,11 +23,10 @@ tags:
         C-x C-f   查找文件
         C-x b     打开最近buffer
         C-x C-r   打开最近文件
-        C-x d     打开dired mode D删除 C复制 R重命名 X执行 +新建文件或目录
+        C-x d/C-x C-j   打开dired mode D删除 C复制 R重命名 X执行 +新建文件或目录 shift+6 返回上一级
         C-x v     查看variable
         C-x f     查看function
         C-x o     窗口切换
-        C-x C-j   打开dired mode
         C-;       打开iedit mode
         C-=       选中单词
         
