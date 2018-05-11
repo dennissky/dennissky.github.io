@@ -26,17 +26,18 @@ tags:
         C-x v     查看variable
         C-x f     查看function
         C-x o     窗口切换
-        C-;       打开iedit mode
+        C-;       进入iedit mode
         C-=       选中单词
         
         Meta-s o  打开occur mode
         Meta-x i-buffer 查看buffer
         Meta-s i 查看函数
+        Meta-s e 进入iedit模式
         
 - dired mode 下快捷键  
   
-        C-x d/C-x C-j   打开dired mode 
-        D删除 C复制 R重命名 X执行 +新建文件或目录 shift+6 返回上一级
+        C-x d/C-x C-j   进入dired mode 
+        标记: D删除 C复制 R重命名 X执行 +新建文件或目录 shift+6 返回上一级
         C-x C-q 进入编辑模式    
         
 
