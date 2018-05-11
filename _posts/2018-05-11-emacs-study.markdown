@@ -2,7 +2,7 @@
 layout:     post
 title:      "Emacs Learn"
 subtitle:   " \"Emacs Learn\""
-date:       2018-05-011 09:00:00
+date:       2018-05-11 09:00:00
 author:     "Dennis"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
