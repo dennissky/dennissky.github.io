@@ -1,0 +1,23 @@
+---
+layout:     post
+title:      "Idea Profile"
+subtitle:   " \"Idea Profile\""
+date:       2018-05-14 11:44:00
+author:     "Dennis"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - idea
+---
+
+
+# IntelliJ IDEA
+
+- license server
+
+最近好像总有小伙伴过期了,之前找到的一个server:http://idea.congm.in,拿去用吧,再不行的话准备自己搭一个了
+
+
+
+
+
