@@ -13,7 +13,7 @@ tags:
 
 # IntelliJ IDEA
 
-- license server
+- license server  
 
 最近好像总有小伙伴过期了,之前找到的一个server:http://idea.congm.in,拿去用吧,再不行的话准备自己搭一个了
 
