@@ -12,7 +12,7 @@ tags:
 
 ## Vim 学习
 
-一直对vim只是了解,通过emacs evil插件进行vim的深入学习,同时感谢子龙山人推荐的[vim学习网站][1]  
+一直对vim只是了解,通过emacs evil插件进行vim的深入学习,同时感谢[子龙山人][1]推荐的[vim学习网站][2]  
 
 
 ### 快捷键     
@@ -92,4 +92,5 @@ tags:
 
         . 重复之前的命令      
 
-[1]:http://www.openvim.com/       
+[1]:https://github.com/zilongshanren 
+[2]:http://www.openvim.com/ 
