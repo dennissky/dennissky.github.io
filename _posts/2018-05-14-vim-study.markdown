@@ -1,0 +1,95 @@
+---
+layout:     post
+title:      "Vim Learn"
+subtitle:   " \"Vim Learn\""
+date:       2018-05-14 10:37:00
+author:     "Dennis"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - vim
+---
+
+## Vim 学习
+
+一直对vim只是了解,通过emacs evil插件进行vim的深入学习,同时感谢子龙山人推荐的vim [vim学习网站][1]  
+
+
+### 快捷键     
+
+- basic movement  
+
+        h 左
+        j 下
+        k 上
+        l 右
+
+- word movement  
+    
+        w 移动到下一个单词的开头
+        e 单词结尾
+        b 单词开头
+        
+- number powered movement  
+        
+        3w 移动3个数量
+
+- insert text repeatedly
+
+        3igo 会写入3个go
+    
+- find a character  
+    
+        fw  查找f出现位置
+        3fw 查找f出现的第三次位置
+    
+- go to matching parentheses
+    
+        (a sample) % 匹配
+        
+- go to start/end of line 
+
+        0 行首
+        $ 行尾
+        
+- find word under cursor
+
+        * 查找下一个
+        # 查找上一个
+        
+- goto line
+
+        gg 文件头
+        G  文件尾
+        数字+G 跳到某一行
+        
+- search,/text with n and N
+
+        mac键盘对应的是/
+        n 上一个
+        N 下一个   
+
+- insert new line
+       
+        o 在当前行下面插入
+        O 在当前行上面插入
+       
+- removing character
+       
+        x 删除
+        X 保留当前字符,向前删除
+       
+- replacing letter under cursor
+
+        r 替换
+
+- deleting
+
+        d 删除
+        可以与word movement配合使用
+       
+- repetition with .
+
+        . 重复之前的命令      
+
+[1]:http://www.openvim.com/       
