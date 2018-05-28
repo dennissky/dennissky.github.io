@@ -29,7 +29,7 @@ lombok是一个可以通过简单的注解形式来帮助我们简化消除一�
 ![GsonFormat][8]  
 
 5. [Translation][9]  
-翻译插件
+翻译插件,mac 下的快捷键是control+command+u 
 
 
 
