@@ -2,7 +2,7 @@
 layout:     post
 title:      "Idea Plugins"
 subtitle:   " \"Idea Plugins\""
-date:       2018-05-14 11:44:00
+date:       2018-05-28 09:44:00
 author:     "Dennis"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
