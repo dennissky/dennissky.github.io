@@ -30,7 +30,7 @@ lombok是一个可以通过简单的注解形式来帮助我们简化消除一�
 
 5. [Translation][9]  
 翻译插件,mac 下的快捷键是control+command+u 
-
+[translation][10]
 
 
 
@@ -72,3 +72,4 @@ lombok是一个可以通过简单的注解形式来帮助我们简化消除一�
 [7]: https://plugins.jetbrains.com/plugin/7654-gsonformat
 [8]: /img/in-post/2018-05-28-idea-plugins/gson.gif
 [9]: https://plugins.jetbrains.com/plugin/8579-translation
+[10]:/img/in-post/2018-05-28-idea-plugins/translate.gif
