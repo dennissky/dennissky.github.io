@@ -14,7 +14,7 @@ tags:
 
 1. [ignore][1] 
 生成各种ignore文件，一键创建git ignore文件的模板，免得自己去写  
-![gitignore][2]
+![ignore][2]
 
 2. lombok[3]  
 lombok是一个可以通过简单的注解形式来帮助我们简化消除一些必须有但显得很臃肿的Java代码的工具，通过使用对应的注解，可以在编译源码的时候生成对应的方法
@@ -22,11 +22,11 @@ lombok是一个可以通过简单的注解形式来帮助我们简化消除一�
 
 3. [GenerateAllSetter][5]  
 一键生成java类所有set方法并赋予默认值
-![setter][6]  
+![GenerateAllSetter][6]  
 
 4. [GsonFormat][7]
 一键根据json文本生成java类  非常方便
-![gson][8]  
+![GsonFormat][8]  
 
 
 
