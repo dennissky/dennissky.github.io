@@ -28,7 +28,7 @@ lombok是一个可以通过简单的注解形式来帮助我们简化消除一�
 一键根据json文本生成java类  非常方便
 ![GsonFormat][8]  
 
-5. [Translation][9]
+5. [Translation][9]  
 翻译插件
 
 
