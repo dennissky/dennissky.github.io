@@ -12,31 +12,30 @@ tags:
 
 # django learn
 
-## Django 安装
+1.Django 安装
 
 brew install python3
 curl https://bootstrap.pypa.io/get-pip.py | python3
 pip install Django==2.1.1
 
-## Django start
+2.Django start
 
 django-admin startproject myblog
 
-## 启动django
+3.启动django
 
 python3 manage.py runserver
 
-## 创建应用
+4.创建应用
 
 python3 manage.py startapp blog
 
-## models
+5.models
 
 python3 manage.py makemigrations app名
 python3 manage.py migrate
 python3 manage.py sqlmigrate blog 0001
-
-
-## admin
+v
+6.admin
 
 python3 manage.py createsuperuser
