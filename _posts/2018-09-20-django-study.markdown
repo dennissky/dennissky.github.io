@@ -35,7 +35,7 @@ python3 manage.py startapp blog
 python3 manage.py makemigrations app名
 python3 manage.py migrate
 python3 manage.py sqlmigrate blog 0001
-v
+
 6.admin
 
 python3 manage.py createsuperuser
