@@ -18,13 +18,14 @@ tags:
 
 ## IDEA 破解
 
-1. 下载补丁  
+1. 下载补丁 
 
     去下载激活补丁[地址][1]
 
-2. 将补丁放入bin目录下
+2. 将补丁放入bin目录下  
 
-3. 将.vmoptions文件打开,尾行写入 -javaagent:JetbrainsCrack-2.8-release-enc.jar  文件为最新补丁名称
+3. 修改.vmoptions
+    将```-javaagent:JetbrainsCrack-2.8-release-enc.jar```写入文件末尾 `文件名为最新补丁名称`
 
 4. Activation Code 写入
     ```
