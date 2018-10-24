@@ -2,12 +2,12 @@
 layout:     post
 title:      "Centos Jdk"
 subtitle:   " \"Centos Jdk\""
-date:       2018-09-20 10:37:00
+date:       2018-10-24 10:37:00
 author:     "Dennis"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - django
+    - jdk
 ---
 
 # Centos Jdk
