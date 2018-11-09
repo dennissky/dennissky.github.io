@@ -17,3 +17,4 @@ tags:
     2.markdown preview enhanced
     3.one dark pro
     4.修改自动保存delay 首选项-设置 Auto Save Delay
+    5.设置单击新打开tabs,首选项-设置 workbench.editor.enablePreview 关闭
