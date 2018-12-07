@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "VsCode"
-subtitle:   " \"Vscode Sync\""
+title:      "VsCode Settings Sync"
+subtitle:   " \"Vscode Settings Sync\""
 date:       2018-12-07 22:37:00
 author:     "Dennis"
 header-img: "img/post-bg-2015.jpg"
