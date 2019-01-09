@@ -2,7 +2,7 @@
 layout:     post
 title:      "Tmux Study"
 subtitle:   " \"Tmux Study\""
-date:       2018-01-08 22:37:00
+date:       2019-01-08 22:37:00
 author:     "Dennis"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
