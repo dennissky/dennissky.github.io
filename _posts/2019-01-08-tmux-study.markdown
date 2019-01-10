@@ -11,7 +11,8 @@ tags:
 ---
 
 # 常用命令
-prefix-key Ctrl+b
+默认 prefix-key Ctrl+b
+建议 Ctrl+a
 
 ## 基础
 * ? 获取帮助信息

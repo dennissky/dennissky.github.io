@@ -1,0 +1,18 @@
+---
+layout:     post
+title:      "iterm2 Settings "
+subtitle:   " \"iterm2\""
+date:       2018-12-07 22:37:00
+author:     "Dennis"
+header-img: "img/post-bg-2015.jpg"
+catalog: true
+tags:
+    - iterm2
+---
+
+# iterm2 设置
+
+## 固定标签名字
+
+先确保Preference->Appearance->Show profile name已经勾选上
+再打开Preference->Profiles，选中你要设置的profile，点击右边的Terminal标签，将Terminal may set tab/window name前的勾取消掉
