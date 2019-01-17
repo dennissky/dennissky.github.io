@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      "Vim Action"
+title:      "Centos免密码登录"
 subtitle:   " \"Centos免密码登录\""
 date:       2019-01-17 02:37:00
 author:     "Dennis"
