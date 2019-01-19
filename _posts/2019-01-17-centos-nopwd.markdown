@@ -1,15 +1,14 @@
 ---
 layout:     post
-title:      "Centos免密码登录"
-subtitle:   " \"Centos免密码登录\""
-date:       2019-01-17 02:37:00
+title:      "Centos 免密码登录"
+subtitle:   " \"Centos 免密码登录\""
+date:       2018-12-07 22:37:00
 author:     "Dennis"
 header-img: "img/post-bg-2015.jpg"
 catalog: true
 tags:
-    - centos 
+    - centos
 ---
-
 ## Centos 免密码登录
 
 1. 在主机A执行命令 
