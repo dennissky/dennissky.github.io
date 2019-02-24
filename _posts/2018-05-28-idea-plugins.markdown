@@ -48,7 +48,8 @@ lombok是一个可以通过简单的注解形式来帮助我们简化消除一�
 ![Maven Helper][17]
 红色的就是出现依赖冲突,例如图中的commons-logging,点击进入我画框框的地方,他就会从依赖路径上给你分析依赖冲突的路径.其实这个的原因也很简单,就是利用Maven的依赖树命令
 
-
+9. [Key PromoterX][18]
+Key Promoter X 是一个提示插件，当你在IDEA里面使用鼠标的时候，如果这个鼠标操作是能够用快捷键替代的，那么Key Promoter X会弹出一个提示框，告知你这个鼠标操作可以用什么快捷键替代。对于想完全使用快捷键在IDEA的，这个插件就很有用。
 
 
 
@@ -82,3 +83,4 @@ lombok是一个可以通过简单的注解形式来帮助我们简化消除一�
 [15]:http://plugins.jetbrains.com/plugin/7179-maven-helper
 [16]:/img/in-post/2018-05-28-idea-plugins/mvn-helper-1.jpg
 [17]:/img/in-post/2018-05-28-idea-plugins/mvn-helper-2.jpg
+[18]:http://plugins.jetbrains.com/plugin/9792-key-promoter-x
