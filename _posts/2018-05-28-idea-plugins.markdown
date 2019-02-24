@@ -32,19 +32,21 @@ lombok是一个可以通过简单的注解形式来帮助我们简化消除一�
 翻译插件 mac 下的快捷键是control+command+u  
 ![translation][10]
 
+6. [SequenceDiagram][11]
+这个工具是能根据代码生成时序图的.我们直接看效果
+![SequenceDiagram][12]
 
+7. [RestfulToolkit][13]
+平时Controller方法太多,找起来太费劲?这个插件来帮你
+![RestfulToolkit][14]
+只要输入url路径,立刻跳转到指定方法,节省效率不止一点点
 
-
-
-
-
-
-
-
-
-
-
-
+8. [Maven Helper][15]
+这个是我在公司要求必装的一个插件,另外我在评审代码评审的第一步就是检查项目的依赖冲突,如果我们用idea自带的依赖分析工具,那么出现如下情况
+![Maven Helper][16]
+坦白说,你让我在这么庞大的一幅图中,分析依赖,找出依赖冲突,坦白说,我认为不够直观.那么用上这个插件之后呢?
+![Maven Helper][17]
+红色的就是出现依赖冲突,例如图中的commons-logging,点击进入我画框框的地方,他就会从依赖路径上给你分析依赖冲突的路径.其实这个的原因也很简单,就是利用Maven的依赖树命令
 
 
 
@@ -73,3 +75,10 @@ lombok是一个可以通过简单的注解形式来帮助我们简化消除一�
 [8]: /img/in-post/2018-05-28-idea-plugins/gson.gif
 [9]: https://plugins.jetbrains.com/plugin/8579-translation
 [10]:/img/in-post/2018-05-28-idea-plugins/translate.gif
+[11]:http://plugins.jetbrains.com/plugin/8286-sequencediagram
+[12]:/img/in-post/2018-05-28-idea-plugins/seq.jpg
+[13]:http://plugins.jetbrains.com/plugin/10292-restfultoolkit
+[14]:/img/in-post/2018-05-28-idea-plugins/restful.jpg 
+[15]:http://plugins.jetbrains.com/plugin/7179-maven-helper
+[16]:/img/in-post/2018-05-28-idea-plugins/mvn-helper-1.jpg
+[17]:/img/in-post/2018-05-28-idea-plugins/mvn-helper-2.jpg
