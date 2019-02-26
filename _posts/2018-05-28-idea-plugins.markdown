@@ -51,6 +51,9 @@ lombok是一个可以通过简单的注解形式来帮助我们简化消除一�
 9. [Key PromoterX][18]
 Key Promoter X 是一个提示插件，当你在IDEA里面使用鼠标的时候，如果这个鼠标操作是能够用快捷键替代的，那么Key Promoter X会弹出一个提示框，告知你这个鼠标操作可以用什么快捷键替代。对于想完全使用快捷键在IDEA的，这个插件就很有用。
 
+10. [PlantUML][19]
+该工具是用来绘制uml图,简洁高效。
+具体语法见[PlantUML][20]
 
 
 
@@ -84,3 +87,5 @@ Key Promoter X 是一个提示插件，当你在IDEA里面使用鼠标的时候�
 [16]:/img/in-post/2018-05-28-idea-plugins/mvn-helper-1.jpg
 [17]:/img/in-post/2018-05-28-idea-plugins/mvn-helper-2.jpg
 [18]:http://plugins.jetbrains.com/plugin/9792-key-promoter-x
+[19]:https://plugins.jetbrains.com/plugin/7017-plantuml-integration
+[20]:http://plantuml.com/zh/
