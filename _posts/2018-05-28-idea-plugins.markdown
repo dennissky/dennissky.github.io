@@ -54,6 +54,7 @@ Key Promoter X 是一个提示插件，当你在IDEA里面使用鼠标的时候�
 10. [PlantUML][19]
 该工具是用来绘制uml图,简洁高效。
 具体语法见[PlantUML][20]
+![PlantUML][21]
 
 
 
@@ -89,3 +90,4 @@ Key Promoter X 是一个提示插件，当你在IDEA里面使用鼠标的时候�
 [18]:http://plugins.jetbrains.com/plugin/9792-key-promoter-x
 [19]:https://plugins.jetbrains.com/plugin/7017-plantuml-integration
 [20]:http://plantuml.com/zh/
+[21]:/img/in-post/2018-05-28-idea-plugins/uml.png
