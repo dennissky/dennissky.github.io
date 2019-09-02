@@ -1,22 +1,64 @@
 ---
-layout:     post
-title:      "log4j2 配置"
-subtitle:   " \"log4j2 配置\""
-date:       2018-12-07 22:37:00
-author:     "Dennis"
-header-img: "img/post-bg-2015.jpg"
+layout: post
+title: 'RabbitMQ 部署'
+subtitle: ' "RabbitMQ 部署"'
+date: 2019-09-02 13:37:00
+author: 'Dennis'
+header-img: 'img/post-bg-2015.jpg'
 catalog: true
 tags:
-    - log4j2配置 
+  - RabbitMQ 部署
 ---
 
-# log4j2 配置踩坑
+# RabbitMQ 部署
 
-## 1.日志按时间分类是如何做的？
+## erlang 环境配置
 
-### TimeBased Triggering Policy
-基于时间的触发策略。该策略主要是完成周期性的log文件封存工作。有两个参数：
+rabbitmq 基于 erlang 语言开发，想要安装 rabbitmq，首先要安装 erlang 开发环境，文章系统全部基于 centos7。
+基于官网给出的 rabbitmq 与 erlang 支持关系，如图![version][1]
+我们去官网下载 erlang 22.0 与 rabbitmq 3.7.17,全部资源在[百度网盘][2]
 
-1. innterval，integer型，指定两次封存动作之间的时间间隔。单位:以日志的命名精度来确定单位，比如yyyy-MM-dd-HH 单位为小时，yyyy-MM-dd-HH-mm 单位为分钟
+1. 解压
 
-2. modulate，boolean型，说明是否对封存时间进行调制。若modulate=true，则封存时间将以0点为边界进行偏移计算。比如，modulate=true，interval=4hours，那么假设上次封存日志的时间为03:00，则下次封存日志的时间为04:00，之后的封存时间依次为08:00，12:00，16:00，。。。
+```
+   $ tar -zxvf otp_src_22.0.tar.gz
+   $ cd otp_src_22.0
+   $ ./configue --prefix=/opt/erlang
+```
+
+2. 如果出现类似关键报错信息 : No curses library functions found。那么此时需要安装 ncurses，安装步骤(遇到提示输入 y 后直接回车即可)如下:
+
+```
+    $ yum install ncurses-devel
+```
+
+3. 安装
+
+```
+    $ make && make install
+```
+
+如果在安装的过程中出现类似 "No **\*** found" 的提示，可根据提示信息安装相应的包， 之后再执行第二或者第三步，直到提示安装完毕为止。
+
+4. 配置环境变量
+   第四步，修改 /etc/profile 配置文件，添加下面的环境变量:
+   ERLANG_HOME=/opt/erlang
+   export PATH=$PATH:$ERLANG_HOME/bin
+   export ERLANG_HOME
+   最后使用 source /etc/profile 使配置文件生效
+   使用命令查看环境变量是否生效,如图![erl][3],安装成功
+
+## rabbitmq 安装
+
+本文基于 rabbitmq 3.7.17,资源在[百度网盘][3]
+
+1. 解压
+
+```
+    $ tar -xvf rabbitmq-server-generic-unix-3.7.17.tar.xz
+    $ cd
+```
+
+[1]: /img/in-post/2019-09-02-rabbitmq/version.png
+[2]: https://pan.baidu.com/s/1fvDyyX0aBbZCh0alifVZJg
+[3]: /img/in-post/2019-09-02-rabbitmq/erl.png
