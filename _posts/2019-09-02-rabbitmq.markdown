@@ -3,7 +3,7 @@ layout: post
 title: 'RabbitMQ 部署'
 subtitle: ' "RabbitMQ 部署"'
 date: 2019-09-02 13:37:00
-author: 'Dennis'
+author: 'De1nnis'
 header-img: 'img/post-bg-2015.jpg'
 catalog: true
 tags:
@@ -46,7 +46,7 @@ rabbitmq 基于 erlang 语言开发，想要安装 rabbitmq，首先要安装 er
    export PATH=$PATH:$ERLANG_HOME/bin
    export ERLANG_HOME
    最后使用 source /etc/profile 使配置文件生效
-   使用命令查看环境变量是否生效,如图![erl][3],安装成功
+   使用命令查看环境变量是否生效,如图![erl][3]安装成功
 
 ## rabbitmq 安装
 
