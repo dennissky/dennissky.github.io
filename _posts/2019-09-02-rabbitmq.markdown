@@ -42,9 +42,11 @@ rabbitmq 基于 erlang 语言开发，想要安装 rabbitmq，首先要安装 er
 
 - 配置环境变量
   第四步，修改 /etc/profile 配置文件，添加下面的环境变量:
+  ```
   ERLANG_HOME=/opt/erlang
   export PATH=$PATH:$ERLANG_HOME/bin
   export ERLANG_HOME
+  ```
   最后使用 source /etc/profile 使配置文件生效
   使用命令查看环境变量是否生效,如图![erl][3]安装成功
 
