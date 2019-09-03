@@ -18,7 +18,7 @@ rabbitmq 基于 erlang 语言开发，想要安装 rabbitmq，首先要安装 er
 基于官网给出的 rabbitmq 与 erlang 支持关系，如图![version][1]
 我们去官网下载 erlang 22.0 与 rabbitmq 3.7.17,全部资源在[百度网盘][2]
 
-1. 解压
+- 解压
 
 ```
    $ tar -zxvf otp_src_22.0.tar.gz
@@ -26,13 +26,13 @@ rabbitmq 基于 erlang 语言开发，想要安装 rabbitmq，首先要安装 er
    $ ./configue --prefix=/opt/erlang
 ```
 
-2. 如果出现类似关键报错信息 : No curses library functions found。那么此时需要安装 ncurses，安装步骤(遇到提示输入 y 后直接回车即可)如下:
+- 如果出现类似关键报错信息 : No curses library functions found。那么此时需要安装 ncurses，安装步骤(遇到提示输入 y 后直接回车即可)如下:
 
 ```
     $ yum install ncurses-devel
 ```
 
-3. 安装
+- 安装
 
 ```
     $ make && make install
@@ -40,19 +40,19 @@ rabbitmq 基于 erlang 语言开发，想要安装 rabbitmq，首先要安装 er
 
 如果在安装的过程中出现类似 "No **\*** found" 的提示，可根据提示信息安装相应的包， 之后再执行第二或者第三步，直到提示安装完毕为止。
 
-4. 配置环境变量
-   第四步，修改 /etc/profile 配置文件，添加下面的环境变量:
-   ERLANG_HOME=/opt/erlang
-   export PATH=$PATH:$ERLANG_HOME/bin
-   export ERLANG_HOME
-   最后使用 source /etc/profile 使配置文件生效
-   使用命令查看环境变量是否生效,如图![erl][3]安装成功
+- 配置环境变量
+  第四步，修改 /etc/profile 配置文件，添加下面的环境变量:
+  ERLANG_HOME=/opt/erlang
+  export PATH=$PATH:$ERLANG_HOME/bin
+  export ERLANG_HOME
+  最后使用 source /etc/profile 使配置文件生效
+  使用命令查看环境变量是否生效,如图![erl][3]安装成功
 
 ## rabbitmq 安装
 
-本文基于 rabbitmq 3.7.17,资源在[百度网盘][3]
+本文基于 rabbitmq 3.7.17,资源在[百度网盘][2]
 
-1. 解压
+- 解压
 
 ```
     $ tar -xvf rabbitmq-server-generic-unix-3.7.17.tar.xz
