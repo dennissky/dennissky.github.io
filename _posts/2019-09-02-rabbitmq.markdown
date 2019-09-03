@@ -3,7 +3,7 @@ layout: post
 title: 'RabbitMQ 部署'
 subtitle: ' "RabbitMQ 部署"'
 date: 2019-09-02 13:37:00
-author: 'De1nnis'
+author: 'Dennis'
 header-img: 'img/post-bg-2015.jpg'
 catalog: true
 tags:
